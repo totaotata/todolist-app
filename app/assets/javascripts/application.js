@@ -14,10 +14,3 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-document.addEventListener("turbolinks:load", function() {
- alert("ok!")
-});
-
-$(document).ready(function() {
-  $(".category-title").eq(index);
-});
